@@ -26,4 +26,4 @@ run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimiz
 `Num6` - Launches Steam Big Picture using Steam Protocol
 
 
-*\*requres source editing with your key*
+* \*requres source editing with your key*
