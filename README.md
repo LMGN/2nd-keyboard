@@ -13,7 +13,7 @@ run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimiz
 
 * `F3` - Aborts shutdown timers
 
-* `Ctrl` - Send pM to your phone using AutoRemote\*
+* `Ctrl` - Send pM to your phone using AutoRemote
 
 * `Space` - Creates a temp folder and opens Explorer to it, pressing `Space` again will delete it
 
@@ -26,4 +26,4 @@ run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimiz
 * `Num6` - Launches Steam Big Picture using Steam Protocol
 
 
-* *. \*requres source editing with your key*
+* **requres source editing with your key*
