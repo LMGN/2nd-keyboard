@@ -9,6 +9,10 @@
         TextBox2.Text = My.Settings.filename
         FileSystemWatcher1.Path = My.Settings.path
         FileSystemWatcher1.Filter = My.Settings.filename
+        If Environment.CommandLine.Contains("/silent") Then
+            Process.Start("luamacros.exe", "-r looamacro.lua")
+            Me.Hide()
+        End If
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -116,5 +120,9 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.Hide()
+    End Sub
+
+    Private Sub NotifyIcon1_Click(sender As Object, e As EventArgs) Handles NotifyIcon1.Click
+        Me.Show()
     End Sub
 End Class

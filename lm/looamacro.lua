@@ -2,9 +2,10 @@
 -- plug in your 2nd keyboard, load this script into LUAmacros, and press the triangle PLAY button.
 -- Then, press any key on that keyboard to assign logical name ('MASTER') to the main macro keyboard
 
-lmc_assign_keyboard('MASTER'); --COMMENT THIS LINE                               V V V V V V V V
+--lmc_assign_keyboard('MASTER'); --COMMENT THIS LINE                               V V V V V V V V
 lmc_print_devices(); -- Output will be MASTER : \\?\HID#something&something#B&THISISWHATYOUNEED&0&1337#{CODE-CODE-CODE-CODE-CODE} [NUMBER]: keyboard
-
+lmc.minimizeToTray = true
+lmc_minimize()
 lmc_device_set_name('MASTER','2014AF64'); -- Uncomment this line
 
 sendToLM = function (key,file)
