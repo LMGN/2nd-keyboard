@@ -2,7 +2,7 @@
 made in VB.net/LooaMacros
 
 # running on boot?
-run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimize itself and run `luamacros.exe -r looamacros.lua`
+run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimize itself* and run `luamacros.exe -r looamacros.lua`
 
 # current macros
 * `ESC` - Closes the app (but not the LUAMacros script)
@@ -13,7 +13,7 @@ run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimiz
 
 * `F3` - Aborts shutdown timers
 
-* `Ctrl` - Send pM to your phone using AutoRemote
+* `Ctrl` - Send pM to your phone using AutoRemote/*
 
 * `Space` - Creates a temp folder and opens Explorer to it, pressing `Space` again will delete it
 
@@ -27,3 +27,5 @@ run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimiz
 
 
 **requres source editing with your key*
+
+**this don't work for some reason
