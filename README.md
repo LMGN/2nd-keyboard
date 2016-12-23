@@ -2,7 +2,7 @@
 made in VB.net/LooaMacros
 
 # running on boot?
-run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimize itself* and run `luamacros.exe -r looamacros.lua`
+run the `LMGNMacros.exe` with the `/silent` arg, for it to automatically minimize itself** and run `luamacros.exe -r looamacros.lua`
 
 # current macros
 * `ESC` - Closes the app (but not the LUAMacros script)
